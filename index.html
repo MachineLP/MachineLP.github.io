@@ -5,7 +5,7 @@ title: 我的Blog
 
 <h2>{{ page.title }}</h2>
 <p>最新文章</p>
-<p><b><a href="http://blog.csdn.net/u014365862/article/details/78422372" target="_blank">我的博客</a></b></p>
+<p class="pos_fixed">  <b><a href="http://blog.csdn.net/u014365862/article/details/78422372" target="_blank">我的博客</a></b> </p>
 <ul>
 　　{% for post in site.posts %}
 　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
