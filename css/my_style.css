@@ -29,6 +29,13 @@ p.main {text-align:justify;}
 p.serif{font-family:"Times New Roman",Times,serif;}
 p.sansserif{font-family:Arial,Helvetica,sans-serif;}
 
+p.pos_fixed
+{
+    position:fixed;
+    top:30px;
+    right:5px;
+}
+
 li {
     text-align: center;
     border-bottom: 1px solid #555;
